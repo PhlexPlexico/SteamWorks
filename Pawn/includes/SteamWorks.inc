@@ -392,6 +392,7 @@ public __ext_SteamWorks_SetNTVOptional()
 	MarkNativeAsOptional("SteamWorks_SetHTTPRequestNetworkActivityTimeout");
 	MarkNativeAsOptional("SteamWorks_SetHTTPRequestHeaderValue");
 	MarkNativeAsOptional("SteamWorks_SetHTTPRequestGetOrPostParameter");
+	MarkNativeAsOptional("SteamWorks_SetHTTPRequestUserAgentInfo");
 
 	MarkNativeAsOptional("SteamWorks_SetHTTPCallbacks");
 	MarkNativeAsOptional("SteamWorks_SendHTTPRequest");
