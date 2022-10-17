@@ -367,6 +367,7 @@ public __ext_SteamWorks_SetNTVOptional()
 	MarkNativeAsOptional("SteamWorks_IsLoaded");
 	MarkNativeAsOptional("SteamWorks_SetGameData");
 	MarkNativeAsOptional("SteamWorks_SetGameDescription");
+	MarkNativeAsOptional("SteamWorks_SetMapName");
 	MarkNativeAsOptional("SteamWorks_IsConnected");
 	MarkNativeAsOptional("SteamWorks_SetRule");
 	MarkNativeAsOptional("SteamWorks_ClearRules");
@@ -393,6 +394,8 @@ public __ext_SteamWorks_SetNTVOptional()
 	MarkNativeAsOptional("SteamWorks_SetHTTPRequestHeaderValue");
 	MarkNativeAsOptional("SteamWorks_SetHTTPRequestGetOrPostParameter");
 	MarkNativeAsOptional("SteamWorks_SetHTTPRequestUserAgentInfo");
+	MarkNativeAsOptional("SteamWorks_SetHTTPRequestRequiresVerifiedCertificate");
+	MarkNativeAsOptional("SteamWorks_SetHTTPRequestAbsoluteTimeoutMS");
 
 	MarkNativeAsOptional("SteamWorks_SetHTTPCallbacks");
 	MarkNativeAsOptional("SteamWorks_SendHTTPRequest");
@@ -405,6 +408,7 @@ public __ext_SteamWorks_SetNTVOptional()
 	MarkNativeAsOptional("SteamWorks_GetHTTPResponseBodyData");
 	MarkNativeAsOptional("SteamWorks_GetHTTPStreamingResponseBodyData");
 	MarkNativeAsOptional("SteamWorks_GetHTTPDownloadProgressPct");
+	MarkNativeAsOptional("SteamWorks_GetHTTPRequestWasTimedOut");
 	MarkNativeAsOptional("SteamWorks_SetHTTPRequestRawPostBody");
 	MarkNativeAsOptional("SteamWorks_SetHTTPRequestRawPostBodyFromFile");
 
