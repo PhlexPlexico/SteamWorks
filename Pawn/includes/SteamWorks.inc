@@ -333,6 +333,7 @@ public void __ext_SteamWorks_SetNTVOptional()
 	MarkNativeAsOptional("SteamWorks_IsLoaded");
 	MarkNativeAsOptional("SteamWorks_SetGameData");
 	MarkNativeAsOptional("SteamWorks_SetGameDescription");
+	MarkNativeAsOptional("SteamWorks_SetMapName");
 	MarkNativeAsOptional("SteamWorks_IsConnected");
 	MarkNativeAsOptional("SteamWorks_SetRule");
 	MarkNativeAsOptional("SteamWorks_ClearRules");
@@ -372,6 +373,7 @@ public void __ext_SteamWorks_SetNTVOptional()
 	MarkNativeAsOptional("SteamWorks_GetHTTPResponseBodyData");
 	MarkNativeAsOptional("SteamWorks_GetHTTPStreamingResponseBodyData");
 	MarkNativeAsOptional("SteamWorks_GetHTTPDownloadProgressPct");
+	MarkNativeAsOptional("SteamWorks_GetHTTPRequestWasTimedOut");
 	MarkNativeAsOptional("SteamWorks_SetHTTPRequestRawPostBody");
 	MarkNativeAsOptional("SteamWorks_SetHTTPRequestRawPostBodyFromFile");
 
